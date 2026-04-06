@@ -5,3 +5,5 @@ _autosave-*
 *.000
 *.bak
 UccMicroDuino/.history/
+.DS_Store
+UccMicroDuino/.history/
