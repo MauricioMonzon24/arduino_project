@@ -2937,10 +2937,28 @@
 		(uuid "d10aefb4-33d3-4430-8e2b-971ca148b5e3")
 	)
 	(junction
+		(at 85.09 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5d2564c-07de-4ecd-82bf-b7f5e6ee0190")
+	)
+	(junction
 		(at 97.79 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbff4efe-e601-4b8b-a768-39d6ff526706")
+	)
+	(no_connect
+		(at 135.89 67.31)
+		(uuid "529ba16c-7f74-4ec9-8986-7a1a95a46e97")
+	)
+	(no_connect
+		(at 100.33 88.9)
+		(uuid "8de2b6a6-e373-444d-b021-43026335f6b7")
+	)
+	(no_connect
+		(at 153.67 67.31)
+		(uuid "a84acdb4-7684-44e5-993a-01b9dfd979ab")
 	)
 	(wire
 		(pts
@@ -3094,6 +3112,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 104.14) (xy 91.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53dfbf22-198a-41eb-951c-69b87be4bfce")
+	)
+	(wire
+		(pts
 			(xy 156.21 67.31) (xy 156.21 71.12)
 		)
 		(stroke
@@ -3241,6 +3269,16 @@
 			(type default)
 		)
 		(uuid "85adbb5d-1d29-4394-8129-86883a9cef10")
+	)
+	(wire
+		(pts
+			(xy 85.09 104.14) (xy 85.09 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b755b3-b912-4a7e-80d2-e0713c5c1bb1")
 	)
 	(wire
 		(pts
@@ -3394,7 +3432,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 104.14) (xy 91.44 104.14)
+			(xy 64.77 104.14) (xy 85.09 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4101,7 +4139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 185.42 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4634,7 +4672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 259.588 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -5031,7 +5069,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 185.42 80.772 90)
 			(hide yes)
 			(show_name no)
@@ -5113,7 +5151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 97.79 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5383,7 +5421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ledSmd:ledSMD"
 			(at 171.45 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5707,7 +5745,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 116.84 99.822 90)
 			(hide yes)
 			(show_name no)
@@ -5867,7 +5905,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 106.68 102.362 90)
 			(hide yes)
 			(show_name no)
